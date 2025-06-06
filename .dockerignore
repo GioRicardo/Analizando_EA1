@@ -1,0 +1,39 @@
+# Carpetas relacionadas con Git y control de versiones
+.git
+.gitignore
+
+# Entornos virtuales y entornos locales
+.venv
+env/
+venv/
+
+# Archivos de configuración y secretos locales
+*.env
+*.pem
+
+# Archivos y carpetas temporales
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Archivos generados por notebooks
+.ipynb_checkpoints/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de documentación (opcional)
+README.md
+*.md
+
+# Salida de compilación o caché de herramientas
+dist/
+build/
+*.egg-info/
+
+# Archivos de Jupyter si no los usas en producción
+*.ipynb
